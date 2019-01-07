@@ -1,0 +1,17 @@
+{
+  "namespace": "solution.model",
+  "type": "record",
+  "name": "ShakespearValue",
+  "fields": [
+    {
+      "name": "line_number",
+      "type": "int",
+      "doc": "line number of line"
+    },
+    {
+      "name": "line",
+      "type": "string",
+      "doc": "line of text from Shakespear"
+    }
+  ]
+}

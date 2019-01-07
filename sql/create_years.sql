@@ -1,0 +1,28 @@
+CREATE TABLE PLAY_WORKS (
+  ID INTEGER PRIMARY KEY,
+  WORK TEXT NOT NULL,
+  YEAR INTEGER NOT NULL
+);
+
+ALTER TABLE PLAY_WORKS RENAME TO years;
+
+INSERT INTO PLAY_WORKS (ID, WORK, YEAR)
+values (1, "Hamlet", 1600);
+
+INSERT INTO PLAY_WORKS (ID, WORK, YEAR)
+values (2, "Julius Ceasar", 1599);
+
+INSERT INTO PLAY_WORKS (ID, WORK, YEAR)
+values (3, "Macbeth", 1605);
+
+INSERT INTO PLAY_WORKS (ID, WORK, YEAR)
+values (4, "Merchant of Venice", 1596);
+
+INSERT INTO PLAY_WORKS (ID, WORK, YEAR)
+values (5, "Othello", 1604);
+
+INSERT INTO PLAY_WORKS (ID, WORK, YEAR)
+values (6, "Romeo and Juliet", 1594);
+
+INSERT INTO PLAY_WORKS (ID, WORK, YEAR)
+values (7, "Antony and Cleopatra", 1606);

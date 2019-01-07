@@ -1,0 +1,17 @@
+{
+  "namespace": "solution.model",
+  "type": "record",
+  "name": "ShakespearKey",
+  "fields" : [
+    {
+      "name": "work",
+      "type": "string",
+      "doc": "name of the work"
+    },
+    {
+      "name": "year",
+      "type": "int",
+      "doc": "year of the work"
+    }
+  ]
+}
