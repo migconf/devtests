@@ -16,7 +16,7 @@ topicsSubResp=""
 recsResp=""
 
 print_usage(){
-    echo "Usage: cloud_producer.sh <topic_name> <consumer_grp> <instance_id> <format> <offset_start>"
+    echo "Usage: rest_proxy_consumer.sh <topic_name> <consumer_grp> <instance_id> <format> <offset_start>"
     echo ""
 }
 

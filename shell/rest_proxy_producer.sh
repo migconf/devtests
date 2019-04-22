@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 print_usage(){
-    echo "Usage: cloud_producer.sh <topic_name> <num_messages>"
+    echo "Usage: rest_proxy_producer.sh <topic_name> <num_messages> <optional_formatted_msg>"
     echo ""
 }
 
